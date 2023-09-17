@@ -119,7 +119,7 @@
 }
 
 .btn-show:hover {
-    background-color: yellow;
+    background-color: green;
     transform: scale(1.2, 1.2);
 }
 
@@ -158,6 +158,13 @@
     green 80deg 190deg,
     blue 190deg 360deg
 );
+}
+
+#input1:checked ~ .slides-info .slider-nav .slider-nav-btn .btn-show1:hover,
+#input2:checked ~ .slides-info .slider-nav .slider-nav-btn .btn-show2:hover, 
+#inpu3:checked ~ .slides-info .slider-nav .slider-nav-btn .btn-show3:hover,
+#input4:checked ~ .slides-info .slider-nav .slider-nav-btn .btn-show4:hover  {
+    background: green;
 }
 
 
